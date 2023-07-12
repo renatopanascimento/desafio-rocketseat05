@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+legend,
+h2,
+button {
+  font-family: "Staatliches", cursive;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+
+body::before {
+  content: "";
+  background: #535971;
+
+  height: 436px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.page header {
+  width: 417px;
+  padding-top: 140px;
+}
+
+.page h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.page p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.page form {
+  margin-top: 58px;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page form fieldset {
+  border: none;
+}
+
+.page fieldset legend {
+  color: #535971;
+  font-size: 24px;
+  line-height: 34px;
+
+  border-bottom: 1px solid #e6e6f0;
+
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+label span {
+  font-size: 12px;
+  color: #c1bccc;
+}
+
+input {
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  background: #fafafc;
+  padding: 20px 16px;
+  font-size: 16px;
+}
+
+footer {
+  background: #535971;
+  padding: 52px 71px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 0 0 20px 20px;
+
+  margin-bottom: 366px;
+
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer button {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+
+  border: none;
+  border-radius: 20px;
+
+  padding: 14px;
+
+  background: #ff5374;
+
+  cursor: pointer;
+}
+
+footer button:hover {
+  background: #f04e6e;
+}
